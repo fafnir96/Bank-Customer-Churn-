@@ -15,19 +15,19 @@ This end-to-end data analytics project focuses on diagnosing and understanding *
 
 The analysis was conducted using the **CRISP-DM (Cross-Industry Standard Process for Data Mining)** methodology — moving beyond surface-level visualization into deep business understanding and strategic evaluation.
 
-| Detail | Description |
-|---|---|
-| 👤 **Role** | Data Analyst |
-| 🛠️ **Tools** | Microsoft Excel (Pivot Tables, Advanced Charting, Slicers, Custom Binning) |
-| 📐 **Methodology** | CRISP-DM |
-| 📦 **Dataset** | 10,000 bank customers |
-| 🎯 **Deliverable** | Interactive Excel Dashboard + Business Recommendations |
+| Detail             | Description                                                                |
+| ------------------ | -------------------------------------------------------------------------- |
+| 👤 **Role**        | Data Analyst                                                               |
+| 🛠️ **Tools**       | Microsoft Excel (Pivot Tables, Advanced Charting, Slicers, Custom Binning) |
+| 📐 **Methodology** | CRISP-DM                                                                   |
+| 📦 **Dataset**     | 10,000 bank customers                                                      |
+| 🎯 **Deliverable** | Interactive Excel Dashboard + Business Recommendations                     |
 
 ---
 
 ## 🎯 Business Problem
 
-> *"Why are our customers leaving, and how do we stop them?"*
+> _"Why are our customers leaving, and how do we stop them?"_
 
 The bank identified an urgent need to understand the **demographic, financial, and product-usage profiles** of churned customers. Preventing further capital outflow and optimizing retention budgets required moving past assumptions — and letting the data tell the real story.
 
@@ -35,22 +35,22 @@ The bank identified an urgent need to understand the **demographic, financial, a
 
 ## 📊 Dashboard Preview
 
-![Dashboard Screenshot](Dashboard_Screenshot.png)
+![Dashboard Screenshot](https://github.com/fafnir96/Bank-Customer-Churn-/blob/2476846b74ccf6361857d235b8abefc6dc28f1f3/Dashboard.png?raw=true)
 
-> *Interactive dashboard with dynamic Slicers filtering by Country, Gender, Credit Card Status, and more.*
+> _Interactive dashboard with dynamic Slicers filtering by Country, Gender, Credit Card Status, and more._
 
 ---
 
 ## 🔍 Key Findings
 
-### 🚨 1. The Product Cross-Selling Anomaly *(Critical Finding)*
+### 🚨 1. The Product Cross-Selling Anomaly _(Critical Finding)_
 
-| Products Held | Churn Rate |
-|---|---|
-| 1 Product | ~27% |
-| 2 Products | **7.58%** ✅ |
-| 3 Products | **82.71%** 🔴 |
-| 4 Products | **100%** 🚨 |
+| Products Held | Churn Rate    |
+| ------------- | ------------- |
+| 1 Product     | ~27%          |
+| 2 Products    | **7.58%** ✅  |
+| 3 Products    | **82.71%** 🔴 |
+| 4 Products    | **100%** 🚨   |
 
 Cross-selling to a **2nd product dramatically increases loyalty**. However, pushing customers beyond that point triggers catastrophic churn — indicating severe hidden fees, service friction, or forced bundling issues.
 
@@ -85,12 +85,15 @@ This disproves the assumption that churn is driven by financial distress. Instea
 ## 💡 Actionable Recommendations
 
 ### 1. 🛑 Investigate Product 3 & 4 Services
+
 Immediately **halt aggressive upselling campaigns** for the 3rd and 4th products. Conduct an internal audit to identify hidden fees or service bottlenecks causing extreme customer frustration. Refocus marketing energy on converting 1-product customers to 2 products.
 
 ### 2. 🔔 Automated Re-engagement Campaigns
-Build a **CRM alert system** that automatically identifies and targets Inactive customers with personalized retention promos or cashback offers *before* they initiate capital transfers.
+
+Build a **CRM alert system** that automatically identifies and targets Inactive customers with personalized retention promos or cashback offers _before_ they initiate capital transfers.
 
 ### 3. 🇩🇪 Targeted Retention Strategy in Germany
+
 Launch a **Customer Satisfaction Survey** specifically targeting the 30–59 age demographic in Germany to identify which competitor offerings are driving attrition and improve local service quality.
 
 ---
@@ -150,14 +153,14 @@ Deployment              →  Interactive Dashboard + Stakeholder Recommendations
 
 ## 📈 Business Impact
 
-| Metric | Value |
-|---|---|
-| Total Customers Analyzed | 10,000 |
-| Churn Rate Identified | 20% (2,000 customers) |
-| Avg. Customer Tenure (before churn) | ~5 years |
-| Churned Customers with Active Balance | 75.45% |
-| Highest-Risk Product Stage | 3 Products (82.71% churn) |
-| Highest-Risk Geography | Germany (32.44% churn) |
+| Metric                                | Value                     |
+| ------------------------------------- | ------------------------- |
+| Total Customers Analyzed              | 10,000                    |
+| Churn Rate Identified                 | 20% (2,000 customers)     |
+| Avg. Customer Tenure (before churn)   | ~5 years                  |
+| Churned Customers with Active Balance | 75.45%                    |
+| Highest-Risk Product Stage            | 3 Products (82.71% churn) |
+| Highest-Risk Geography                | Germany (32.44% churn)    |
 
 ---
 
@@ -168,4 +171,4 @@ Data Analytics Portfolio Project
 
 ---
 
-*This project was developed as part of an end-to-end data analytics portfolio, demonstrating skills in business problem framing, data preparation, exploratory analysis, dashboard design, and data storytelling.*
+_This project was developed as part of an end-to-end data analytics portfolio, demonstrating skills in business problem framing, data preparation, exploratory analysis, dashboard design, and data storytelling._
